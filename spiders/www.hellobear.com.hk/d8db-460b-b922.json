@@ -1,0 +1,132 @@
+{
+    "extractors": {},
+    "id": "d8db-460b-b922",
+    "name": "product",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "f917-44a3-95e3",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "7925-40a8-8018",
+                    "selector": ".pd-box",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".Product-title"
+                    ],
+                    "container_id": "f917-44a3-95e3",
+                    "data": {
+                        "4123-4e13-b831": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "7635-4381-8bd7",
+                            "required": false
+                        }
+                    },
+                    "id": "ae98-4bda-9cc8",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .Product-title",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" Product-title \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".price-regular"
+                    ],
+                    "container_id": "f917-44a3-95e3",
+                    "data": {
+                        "3324-4dc9-aaa4": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "bf3f-4c00-b6d7",
+                            "required": false
+                        }
+                    },
+                    "id": "31c3-433d-b299",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .product-detail-actions > .not-same-price > .price-box > .global-primary",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" product-detail-actions \")]/*[contains(concat(\" \", @class, \" \"), \" not-same-price \")]/*[contains(concat(\" \", @class, \" \"), \" price-box \")]/*[contains(concat(\" \", @class, \" \"), \" global-primary \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".ProductDetail-description"
+                    ],
+                    "container_id": "f917-44a3-95e3",
+                    "data": {
+                        "fa85-4142-ac09": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "e92c-4a77-aed7",
+                            "required": false
+                        }
+                    },
+                    "id": "ab8e-47bf-a872",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-description",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-description \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-gallery > ul > li > .sl-lazy-image"
+                    ],
+                    "container_id": "f917-44a3-95e3",
+                    "data": {
+                        "5215-447c-8704": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "291c-4d98-971f",
+                            "required": false
+                        }
+                    },
+                    "id": "9bb9-40f4-8c48",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": true,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-gallery > ul > li > .sl-lazy-image",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-gallery \")]/ul/li/*[contains(concat(\" \", @class, \" \"), \" sl-lazy-image \")]"
+                }
+            ]
+        }
+    },
+    "scrapes": "7925-40a8-8018",
+    "spider": "www.hellobear.com.hk",
+    "url": "https://www.hellobear.com.hk/products/japan-lunon-lun08-visible-black-powder-punching-machine",
+    "version": "0.13.3"
+}

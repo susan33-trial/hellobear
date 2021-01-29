@@ -1,0 +1,35 @@
+{
+    "7925-40a8-8018": {
+        "fields": {
+            "7635-4381-8bd7": {
+                "id": "7635-4381-8bd7", 
+                "name": "name", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "bf3f-4c00-b6d7": {
+                "id": "bf3f-4c00-b6d7", 
+                "name": "price", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "e92c-4a77-aed7": {
+                "id": "e92c-4a77-aed7", 
+                "name": "description", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "291c-4d98-971f": {
+                "id": "291c-4d98-971f", 
+                "name": "images", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }
+        }, 
+        "name": "LUNON"
+    }
+}
